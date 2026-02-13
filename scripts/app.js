@@ -1,14 +1,3 @@
-// Kiểm tra phiên bản
-caches.has('site-static-v18').then(function(hasCache) {
-	if (!hasCache) {} else {
-		caches.delete("site-static-v18");
-		alert("⚠️ Bạn đang ở phiên bản cũ của Website. Reload để cập nhật thời gian mới nhất");
-	}
-}).catch(function() {
-	console.error('🚨 Đã gặp lỗi!' + e)
-});
-
-
 // Kiểm tra ngày
 var countDownDate = new Date("Jun 06, 2026   00:00:00").getTime();
 var x = setInterval(function() {
