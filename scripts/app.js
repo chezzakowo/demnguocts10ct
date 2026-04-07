@@ -1,5 +1,5 @@
 // Kiểm tra ngày
-var countDownDate = new Date("Jun 06, 2026   00:00:00").getTime();
+var countDownDate = new Date("Jun 30, 2026   00:00:00").getTime();
 var x = setInterval(function() {
 
 
